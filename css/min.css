@@ -1,0 +1,126 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    width: 1008px;
+    margin: 0 auto;
+    overflow: visible;
+    font-family: "Arial";
+    font-size: 14px;
+    line-height: 22px;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.dark_block{
+    background-color: #777;
+}
+.light_block{
+    background-color: #dcdcdc;
+}
+/*Header*/
+header{
+    position: relative;
+    top: 0;
+}
+.header_row{
+    border-bottom: 1px solid #696969;
+    padding: 24px 0 18px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.block_1{
+    flex: 0 0 auto;
+    width: 122px;
+    height: 108px;
+}
+div.block_2{
+    margin-top: 0;
+    width: 277px;
+    height: 108px;
+}
+div.block_3{
+    width: 513px;
+    height: 108px;
+}
+/*Header*/
+
+/*Main*/
+aside, div.center{
+ min-height: 722px;   
+}
+aside{
+    width: 184px;
+    float: left;
+    margin: 22px 0 24px 0;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+.block_4{
+    padding: 10px  15px;
+    max-height: 308px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.block_4 ul.list-unstiled{
+    padding: 0;
+    list-style: none;
+    
+}
+.block_7{
+    width: 184px;
+    height: 132px;
+}
+/*Aside*/
+
+/*Center*/
+.block_5 {
+	flex: 0 0 auto;
+	padding: 0 21px;
+}
+.block_5 ul {
+	padding: 10px 0 10px 32px;		
+	list-style-type: none;
+}
+.block_5 li:before {
+	background-color: #777777;
+	content: "";
+	display: inline-block;
+	width: 3px;
+	height: 3px;
+	margin-right: 5px; 
+}
+.center {
+	width: 758px;
+    float: right;
+    margin: 22px 0 24px 0;
+    padding-left: 18px;
+    color: #777;
+    display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+    -webkit-justify-content: space-between;
+	-moz-justify-content: space-between;
+	-ms-justify-content: space-between;
+	justify-content: space-between;
+    flex-direction: column;
+}
+
